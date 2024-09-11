@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+  padding: 0px 10px 0px 10px;
+}
+@media screen and (min-width: 768px) {
+  .table-row {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.transaction-text {
+  color: #475569;
+  font-size: 12px;
+  width: 30%;
+}
+@media screen and (min-width: 768px) {
+  .transaction-text {
+    font-size: 14px;
+  }
+}
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-icon {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    /* margin-right: 24px; */
+  }
+}
